@@ -12,7 +12,7 @@ namespace TestForJenkins
         {
             for (var i = 0; i < a; i++)
             {
-                Console.WriteLine(i);
+                Console.Write(i + " | ");
             }
         }
         static void Main(string[] args)
